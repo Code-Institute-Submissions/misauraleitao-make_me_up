@@ -1,0 +1,14 @@
+[{
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "1234",
+            "name": "Revolution Gloss Set",
+            "description": "Get shinning lips with this gloss set, perfect for a night out in the town and turn heads",
+            "price": 30.99,
+            "category": 1,
+            "rating": 4.6,
+            "image_url": "https://images.beautybay.com/eoaaqxyywn6o/REBE1991F_1.jpg_s3.lmb_f3z6hw/1d7b335450b0c587ec475a2f3236fb32/REBE1991F_1.jpg?w=1000&fm=jpg&fl=progressive&q=70",
+            "image": "revolution-gloss-set.jpg"
+        }
+    } ]
