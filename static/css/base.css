@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/home-page-background.jpg') no-repeat center center fixed;
+    background-image: url('/media/home-page-background.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh -164px);
     color: rgb(7, 7, 7);
@@ -65,8 +65,7 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: white;
-    background-size: cover;
+	background-color: white;
 	z-index: -1;
 }
 /* -------------------------------- Media Queries */
@@ -90,5 +89,16 @@ body {
 
     .header-container {
         padding-top: 164px;
+    }
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
     }
 }
