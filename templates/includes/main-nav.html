@@ -17,11 +17,11 @@
                 Lips
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="lip-link">
-                <a href="" class="dropdown-item">Lipgloss</a>
-                <a href="" class="dropdown-item">Lip Liner</a>
-                <a href="" class="dropdown-item">Lip Bases</a>
-                <a href="" class="dropdown-item">Lipstick</a>
-                <a href="" class="dropdown-item">All Lips</a>
+                <a href="{% url 'products' %}?category=lipgloss" class="dropdown-item">Lipgloss</a>
+                <a href="{% url 'products' %}?category=lipliner" class="dropdown-item">Lip Liner</a>
+                <a href="{% url 'products' %}?category=lipbases" class="dropdown-item">Lip Bases</a>
+                <a href="{% url 'products' %}?category=lipsticks" class="dropdown-item">Lipstick</a>
+                <a href="{% url 'products' %}?category=lipgloss,lipliner,lipbases,lipsticks" class="dropdown-item">All Lips</a>
             </div>
         </li>
 
@@ -30,11 +30,12 @@
                 Eyes
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="eyes-link">
-                <a href="" class="dropdown-item">Pigments</a>
-                <a href="" class="dropdown-item">Palletes</a>
-                <a href="" class="dropdown-item">Liners</a>
-                <a href="" class="dropdown-item">Lashes</a>
-                <a href="" class="dropdown-item">Eye Brushes</a>
+                <a href="{% url 'products' %}?category=pigments" class="dropdown-item">Pigments</a>
+                <a href="{% url 'products' %}?category=palletes" class="dropdown-item">Palletes</a>
+                <a href="{% url 'products' %}?category=liners" class="dropdown-item">Liners</a>
+                <a href="{% url 'products' %}?category=lashes" class="dropdown-item">Lashes</a>
+                <a href="{% url 'products' %}?category=eyebrushes" class="dropdown-item">Eye Brushes</a>
+                <a href="{% url 'products' %}?category=pigments,palletes,liners,lashes,eyebrushes" class="dropdown-item">All Eyes</a>
             </div>
         </li>
 
@@ -43,14 +44,15 @@
                 Face
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="face-link">
-                <a href="" class="dropdown-item">Foundation</a>
-                <a href="" class="dropdown-item">Primer</a>
-                <a href="" class="dropdown-item">Blush</a>
-                <a href="" class="dropdown-item">Brozer</a>
-                <a href="" class="dropdown-item">Concealer</a>
-                <a href="" class="dropdown-item">Setting Spray</a>
-                <a href="" class="dropdown-item">Setting Powder</a>
-                <a href="" class="dropdown-item">Face Brushes</a>
+                <a href="{% url 'products' %}?category=foundation" class="dropdown-item">Foundation</a>
+                <a href="{% url 'products' %}?category=primer" class="dropdown-item">Primer</a>
+                <a href="{% url 'products' %}?category=blush" class="dropdown-item">Blush</a>
+                <a href="{% url 'products' %}?category=bronzer" class="dropdown-item">Brozer</a>
+                <a href="{% url 'products' %}?category=concealer" class="dropdown-item">Concealer</a>
+                <a href="{% url 'products' %}?category=settingspray" class="dropdown-item">Setting Spray</a>
+                <a href="{% url 'products' %}?category=settingpowder" class="dropdown-item">Setting Powder</a>
+                <a href="{% url 'products' %}?category=facebrushes" class="dropdown-item">Face Brushes</a>
+                <a href="{% url 'products' %}?category=foundation,primer,blush,bronzer,concealer,settingspray,settingpowder,facebrushes" class="dropdown-item">All Face</a>
             </div>
         </li>
 
@@ -59,10 +61,11 @@
                 Eyebrows
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="eyebrows-link">
-                <a href="" class="dropdown-item">Eyebrow Gel</a>
-                <a href="" class="dropdown-item">Eyebrow liner</a>
-                <a href="" class="dropdown-item">Eyebrow stencils</a>
-                <a href="" class="dropdown-item">Eyebrow Brushes</a>
+                <a href="{% url 'products' %}?category=eyebrowgel" class="dropdown-item">Eyebrow Gel</a>
+                <a href="{% url 'products' %}?category=eyebrowliner" class="dropdown-item">Eyebrow Liner</a>
+                <a href="{% url 'products' %}?category=eyebrowstencils" class="dropdown-item">Eyebrow Stencils</a>
+                <a href="{% url 'products' %}?category=eyebrowbrushes" class="dropdown-item">Eyebrow Brushes</a>
+                <a href="{% url 'products' %}?category=eyebrowgel,eyebrowliner,eyebrowstencils,eyebrowbrushes" class="dropdown-item">All Eyebrows</a>
             </div>
         </li>
 
@@ -71,9 +74,9 @@
                 Bundle Babe
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Gift sets</a>
-                <a href="" class="dropdown-item">Brush sets</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=giftsets" class="dropdown-item">Gift Sets</a>
+                <a href="{% url 'products' %}?category=brushsets" class="dropdown-item">Brush Sets</a>
+                <a href="{% url 'products' %}?category=giftsets,brushsets" class="dropdown-item">All Sets</a>
             </div>
         </li>
     </ul>
