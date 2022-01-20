@@ -2,35 +2,162 @@
     "pk": 1,
     "model": "products.category",
     "fields": {
-        "name": "lips",
-        "friendly_name": "Lips"
+        "name": "lipgloss",
+        "friendly_name": "Lipgloss"
     }
 }, {
     "pk": 2,
     "model": "products.category",
     "fields": {
-        "name": "eyes",
-        "friendly_name": "Eyes"
+        "name": "lipliner",
+        "friendly_name": "Lipliner"
     }
 }, {
     "pk": 3,
     "model": "products.category",
     "fields": {
-        "name": "face",
-        "friendly_name": "Face"
+        "name": "lipbases",
+        "friendly_name": "Lipbases"
     }
 }, {
     "pk": 4,
     "model": "products.category",
     "fields": {
-        "name": "eyebrows",
-        "friendly_name": "Eyebrows"
+        "name": "lipstick",
+        "friendly_name": "Lipstick"
     }
 }, {
     "pk": 5,
     "model": "products.category",
     "fields": {
-        "name": "bundlebabe",
-        "friendly_name": "Bundle Babe"
+        "name": "pigments",
+        "friendly_name": "Pigments"
     }
+}, {
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+        "name": "palletes",
+        "friendly_name": "Palletes"
+    }
+}, {
+    "pk": 7,
+    "model": "products.category",
+    "fields": {
+        "name": "liners",
+        "friendly_name": "Liners"
+    }
+}, {
+    "pk": 8,
+    "model": "products.category",
+    "fields": {
+        "name": "lashes",
+        "friendly_name": "Lashes"
+    }
+}, {
+    "pk": 9,
+    "model": "products.category",
+    "fields": {
+        "name": "eyebrushes",
+        "friendly_name": "Eye Brushes"
+    }
+}, {
+    "pk": 10,
+    "model": "products.category",
+    "fields": {
+        "name": "foundation",
+        "friendly_name": "Foundation"
+    }
+}, {
+    "pk": 11,
+    "model": "products.category",
+    "fields": {
+        "name": "primer",
+        "friendly_name": "Primer"
+    }
+}, {
+    "pk": 12,
+    "model": "products.category",
+    "fields": {
+        "name": "blush",
+        "friendly_name": "Blush"
+    }
+}, {
+    "pk": 13,
+    "model": "products.category",
+    "fields": {
+        "name": "bronzer",
+        "friendly_name": "Bronzer"
+    }
+}, {
+    "pk": 14,
+    "model": "products.category",
+    "fields": {
+        "name": "concealer",
+        "friendly_name": "Concealer"
+    }
+}, {
+    "pk": 15,
+    "model": "products.category",
+    "fields": {
+        "name": "settingspray",
+        "friendly_name": "Setting Spray"
+    }
+}, {
+    "pk": 16,
+    "model": "products.category",
+    "fields": {
+        "name": "settingpowder",
+        "friendly_name": "Setting Powder"
+    }
+}, {
+    "pk": 17,
+    "model": "products.category",
+    "fields": {
+        "name": "facebrushes",
+        "friendly_name": "Face Brushes"
+    }
+}, {
+    "pk": 18,
+    "model": "products.category",
+    "fields": {
+        "name": "eyebrowgel",
+        "friendly_name": "Eyebrow Gel"
+    }
+}, {
+    "pk": 19,
+    "model": "products.category",
+    "fields": {
+        "name": "eyebrowliner",
+        "friendly_name": "Eyebrow Liner"
+    }
+}, {
+    "pk": 20,
+    "model": "products.category",
+    "fields": {
+        "name": "eyebrowstencils",
+        "friendly_name": "Eyebrow Stencils"
+    }
+}, {
+    "pk": 21,
+    "model": "products.category",
+    "fields": {
+        "name": "eyebrowbrushes",
+        "friendly_name": "Eyebrow Brushes"
+    }
+}, {
+    "pk": 22,
+    "model": "products.category",
+    "fields": {
+        "name": "giftsets",
+        "friendly_name": "Gift Sets"
+    }
+}, {
+    "pk": 23,
+    "model": "products.category",
+    "fields": {
+        "name": "brushsets",
+        "friendly_name": "Brush Sets"
+    }
+
 }]

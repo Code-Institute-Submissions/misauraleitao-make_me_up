@@ -1,5 +1,5 @@
 [{
-        "pk": 1,
+        "pk": 22,
         "model": "products.product",
         "fields": {
             "sku": "1234",
