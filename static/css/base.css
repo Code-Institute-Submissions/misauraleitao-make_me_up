@@ -107,6 +107,14 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+.remove-item {
+    cursor: pointer;
+}
+
+.update-link {
+    cursor: pointer;
+}
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
