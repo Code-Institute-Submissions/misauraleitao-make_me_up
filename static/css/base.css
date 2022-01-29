@@ -3,11 +3,26 @@ html {
 }
 
 body {
-    background-color: #ffe4e1;
+    background: url('/media/euphoria.gif') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh -164px);
-    color: rgb(7, 7, 7);
+    height: calc(100vh - 164px);
+    color: #555;
     font-family: 'BioRhyme', serif;
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: pink;
+	z-index: -1;
+}
+
+.background-home {
+    background-image: url("/media/carousel-3.jpg");
+    background-size: cover; 
 }
 
 .icon {
