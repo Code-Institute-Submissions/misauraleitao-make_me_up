@@ -18,3 +18,4 @@ where the database URL environment variable will be defined we connect to Postgr
 Then, I need to install gunicorn which will act as a webserver, and freezing it the requirements txt file.
 Then, we create a procfile.
 then, I need to allow it to settings.py allowed hosts, aswell as the localhost so it can be locally hosted too.
+then press commit and push to deploy to heroku.
