@@ -1,0 +1,1 @@
+web: gunicorn make_me_up.wsgi:application
