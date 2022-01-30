@@ -19,3 +19,7 @@ Then, I need to install gunicorn which will act as a webserver, and freezing it 
 Then, we create a procfile.
 then, I need to allow it to settings.py allowed hosts, aswell as the localhost so it can be locally hosted too.
 then press commit and push to deploy to heroku.
+the application is now deployed to the heroku platform.
+
+AWS.
+First I created an account with AWS, then travel to aws management console and search for s3 scalable cloud. I will click that.
