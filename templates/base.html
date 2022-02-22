@@ -79,7 +79,7 @@
                             <div class="text-center">
                                 <div><i class="fas fa-user fa-lg"></i></div>
                                 <p class="my-0">My Account</p>
-                            </div>
+                        </div>
                         </a>
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
@@ -105,6 +105,16 @@
                                     {% else %}
                                     £0.00
                                     {% endif %}
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="text-black nav-link" href="{% url 'reviews' %}">
+                            <div class="text-center">
+                                <div><i class="fas fa-comments fa-lg"></i></div>
+                                <p class="my-0">
+                                  Reviews
                                 </p>
                             </div>
                         </a>
