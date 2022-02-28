@@ -64,7 +64,7 @@ def product_detail(request, product_id):
 
     product = get_object_or_404(Product, pk=product_id)
 
-        #Add review
+    #Add review
     if request.method == 'POST' and request.user.is_authenticated:
         stars = request.POST.get('stars', 3)
         content = request.POST.get('content', '')

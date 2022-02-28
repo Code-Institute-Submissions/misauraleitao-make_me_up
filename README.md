@@ -38,7 +38,8 @@ I am also impleting the free delivery advert on bar so that customers can be pro
 11. As a user I am able to view an order confirmation at the end of purchase so that I know that the items have gone through.
 12. As a user I am able to receive emails from the store for purchasing and signing up.
 13. As a user I am able to view ratings of products on the labels.
-14. As a user I am able to leave a review.
+14. As a user I am able to leave a review, I want it to be annonimous and so no one can see my name, instead the can see the date that it was posted.
+15. As an admin I want to be able to check who posts theese reviews, I am also able to delete them too if I think they are not appropriate.
 
 ### Scope
 
@@ -69,7 +70,7 @@ The website is made of 7 apps:
 ### Databases.
 
 - The User:
-The user interacts with the website. In the online store you have the products. As the user clicks through the products, they then may decide to purchase a few of those products. When they select a product they add that to their basket. The basic pieces of a user would be their full name, password and email address. I create the user in order to record their data so they can keep track of their purchases etc. The database does not save a product to a user. It does that through the order.
+The user interacts with the website. In the online store you have the products. As the user clicks through the products, they then may decide to purchase a few of those products. When they select a product they add that to their basket. The basic pieces of a user would be their full name, password and email address. I create the user in order to record their data so they can keep track of their purchases etc. The database does not save a product to a user. It does that through the order. 
 - The Order:
 The order is the main transactional piece that allows users to interact with products through the store. The main foundational pieces of an order are: User ID foreign key, Product ID foreign key and the total amount of all the products. As a user checks out of the store, this is what will allow the database to process the user and the products that, that user will be purchasing. By keeping all the necessary information in an order, the database saves an instance of an interaction of a user with the stores products.
 - The Product:
@@ -81,11 +82,11 @@ Bellow you can see the database schema.
 ---
 Bellow is a user diagram.
 ---
-![databasesch](media/diagram1.jpg)
+![databasesch](media/image1.jpeg)
 ---
 Bellow is an admin diagram.
 ---
-![databasesch](media/diagram2.jpg)
+![databasesch](media/image0.jpeg)
 ---
 
 # Wireframes and page features
@@ -200,6 +201,9 @@ and user information, stripe payments all work successfully.
 - As an admin I am also able to temper with the back-end admin site which allows me to manage all things on the website.
 - When on the products page I can also sort how I want to view them in the order I choose so.
 - All allauth verifications work.
+- Product review testing is something I implemented strongly in this project, making sure all the code works and that I am able to not only post a review but
+I am also able to see other reviews. I also carefully looked at every single product to ensure that it was showing up. Furthermore, I wanted to make sure that users are not
+allowed to give a review unless they are logged in.
 
 ## Bugs
 
