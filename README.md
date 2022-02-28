@@ -51,6 +51,7 @@ Register/login/logout/profile pages.- allauth django
 Updating and removing product management page for superusers.
 Updating and removing products from basket options.
 Send emails using Gmail SMTP
+Able to add reviews to the product details page so that users can see the reviews.
 
 ### Struture
 
@@ -61,7 +62,7 @@ The website is made of 7 apps:
 - Main project app 'make_me_up'
 - Bag app - functionality for the shopping bag
 - Checkout - functionality for completing an order
-- Products - functionality for displaying the products
+- Products - functionality for displaying the products and to add reviews.
 - Profile - functionality for the users profile
 
 ### Databases.
@@ -100,6 +101,7 @@ This is the product page. Here you can see you will have displayed cards that sh
 ---
  Product Description:
 This is the product detail page. Here you can find an image of the product, description and all other information, alongside buttons and quantity bar.
+I have also added a Review section that allows users to leave a review. I have not implemented this on the wireframe as it was later added on.
 --- 
 ![databasesch](media/wireframe-productdetail.jpg)
 ---
@@ -290,6 +292,7 @@ I used theese to help me through my project
 - Stripe Js Docs - to help me with stripe js code and with webhooks
 - Slack - For getting inspirations for ideas and readme.md templates
 - Code Institute Tutors - for extensivly helping me solving issues with server errors, deployment and settings.py 
+- Youtube- for different Django tutorials
 
 ## Media
 
