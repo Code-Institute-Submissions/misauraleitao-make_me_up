@@ -251,6 +251,9 @@ a.category-badge > span.badge:hover {
     overflow-y: auto;
 }
 
+
+
+
 /* Product Form */
 
 .btn-file {
@@ -277,6 +280,10 @@ a.category-badge > span.badge:hover {
     background-color: #dc3545;
     border-color: #dc3545;
     border-radius: 0;
+}
+/* Reviews */
+.notification.space-below {
+    margin-bottom: 20px;
 }
 
 /* fixed top navbar only on medium and up */
