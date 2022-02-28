@@ -63,6 +63,3 @@ def remove_from_bag(request, item_id):
     except Exception as e:
         messages.error(request, f'Error! {e}')
         return HttpResponse(status=500)
-
-
-

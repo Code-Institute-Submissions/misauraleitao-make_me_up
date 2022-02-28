@@ -38,6 +38,7 @@ I am also impleting the free delivery advert on bar so that customers can be pro
 11. As a user I am able to view an order confirmation at the end of purchase so that I know that the items have gone through.
 12. As a user I am able to receive emails from the store for purchasing and signing up.
 13. As a user I am able to view ratings of products on the labels.
+14. As a user I am able to leave a review.
 
 ### Scope
 
